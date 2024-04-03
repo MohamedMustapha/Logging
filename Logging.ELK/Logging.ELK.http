@@ -1,0 +1,6 @@
+@Logging.ELK_HostAddress = http://localhost:5189
+
+GET {{Logging.ELK_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

@@ -1,0 +1,6 @@
+@Logging.Seq_HostAddress = http://localhost:5095
+
+GET {{Logging.Seq_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

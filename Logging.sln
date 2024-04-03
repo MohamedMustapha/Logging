@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34607.119
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Logging.Seq", "Logging.Seq\Logging.Seq.csproj", "{38AF74BB-F24A-4675-AA54-A3D7BC2F0DF7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Structured", "Structured", "{3C842074-84CE-4AE6-86F8-8849465D5D2A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Logging.ELK", "Logging.ELK\Logging.ELK.csproj", "{06FBD78B-8ABE-48D8-9FA6-3EF666937381}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Distributed", "Distributed", "{BFA8236B-3A74-4237-95AC-35F7671973A4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Logging", "Logging", "{D2C01B11-D81C-4AA3-89DE-6052C57B071E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{38AF74BB-F24A-4675-AA54-A3D7BC2F0DF7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{38AF74BB-F24A-4675-AA54-A3D7BC2F0DF7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{38AF74BB-F24A-4675-AA54-A3D7BC2F0DF7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{38AF74BB-F24A-4675-AA54-A3D7BC2F0DF7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{06FBD78B-8ABE-48D8-9FA6-3EF666937381}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{06FBD78B-8ABE-48D8-9FA6-3EF666937381}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{06FBD78B-8ABE-48D8-9FA6-3EF666937381}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{06FBD78B-8ABE-48D8-9FA6-3EF666937381}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{38AF74BB-F24A-4675-AA54-A3D7BC2F0DF7} = {3C842074-84CE-4AE6-86F8-8849465D5D2A}
+		{3C842074-84CE-4AE6-86F8-8849465D5D2A} = {D2C01B11-D81C-4AA3-89DE-6052C57B071E}
+		{06FBD78B-8ABE-48D8-9FA6-3EF666937381} = {3C842074-84CE-4AE6-86F8-8849465D5D2A}
+		{BFA8236B-3A74-4237-95AC-35F7671973A4} = {D2C01B11-D81C-4AA3-89DE-6052C57B071E}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CEF68811-8379-44FD-A2B3-B5D949D4CCB6}
+	EndGlobalSection
+EndGlobal
